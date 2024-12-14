@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-
+#I'm still experimenting with ways to use the SVD and other methods to reduce image noise
 
 def marginalize(mat, cutoff):
     mat= np.where(mat > cutoff, 255, mat)
